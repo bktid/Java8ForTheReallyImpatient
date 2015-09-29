@@ -4,3 +4,7 @@ build
 *.iml
 *~
 *target
+/bin/
+.project
+.settings
+.classpath
