@@ -36,6 +36,7 @@ public class Ex2Test {
     @Test
     public void testListSubdirectoriesWithLamba() {
         File[] files = ex2.listSubdirectoriesWithLamba(temporaryFolder.getRoot());
+
         assertThat(files).containsOnly(folder1, folder2);
     }
 
